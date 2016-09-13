@@ -1,4 +1,6 @@
-<style>
+var m01 = 
+
+(<style>
 
 
 	table.cfdump_wddx,
@@ -1868,6 +1870,6 @@ table thead th {
 <br />
 </center>
 <br>
-</center>
+</center>)
 </body>
 </html>
