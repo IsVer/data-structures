@@ -1,0 +1,733 @@
+                   <option value="">Start Time</option>
+                                   
+                   <option value="12:00 AM" >12:00 AM</option>
+                                   
+                   <option value="12:15 AM" >12:15 AM</option>
+                                   
+                   <option value="12:30 AM" >12:30 AM</option>
+                                   
+                   <option value="12:45 AM" >12:45 AM</option>
+                                   
+                   <option value="01:00 AM" >01:00 AM</option>
+                                   
+                   <option value="01:15 AM" >01:15 AM</option>
+                                   
+                   <option value="01:30 AM" >01:30 AM</option>
+                                   
+                   <option value="01:45 AM" >01:45 AM</option>
+                                   
+                   <option value="02:00 AM" >02:00 AM</option>
+                                   
+                   <option value="02:15 AM" >02:15 AM</option>
+                                   
+                   <option value="02:30 AM" >02:30 AM</option>
+                                   
+                   <option value="02:45 AM" >02:45 AM</option>
+                                   
+                   <option value="03:00 AM" >03:00 AM</option>
+                                   
+                   <option value="03:15 AM" >03:15 AM</option>
+                                   
+                   <option value="03:30 AM" >03:30 AM</option>
+                                   
+                   <option value="03:45 AM" >03:45 AM</option>
+                                   
+                   <option value="04:00 AM" >04:00 AM</option>
+                                   
+                   <option value="04:15 AM" >04:15 AM</option>
+                                   
+                   <option value="04:30 AM" >04:30 AM</option>
+                                   
+                   <option value="04:45 AM" >04:45 AM</option>
+                                   
+                   <option value="05:00 AM" >05:00 AM</option>
+                                   
+                   <option value="05:15 AM" >05:15 AM</option>
+                                   
+                   <option value="05:30 AM" >05:30 AM</option>
+                                   
+                   <option value="05:45 AM" >05:45 AM</option>
+                                   
+                   <option value="06:00 AM" >06:00 AM</option>
+                                   
+                   <option value="06:15 AM" >06:15 AM</option>
+                                   
+                   <option value="06:30 AM" >06:30 AM</option>
+                                   
+                   <option value="06:45 AM" >06:45 AM</option>
+                                   
+                   <option value="07:00 AM" >07:00 AM</option>
+                                   
+                   <option value="07:15 AM" >07:15 AM</option>
+                                   
+                   <option value="07:30 AM" >07:30 AM</option>
+                                   
+                   <option value="07:45 AM" >07:45 AM</option>
+                                   
+                   <option value="08:00 AM" >08:00 AM</option>
+                                   
+                   <option value="08:15 AM" >08:15 AM</option>
+                                   
+                   <option value="08:30 AM" >08:30 AM</option>
+                                   
+                   <option value="08:45 AM" >08:45 AM</option>
+                                   
+                   <option value="09:00 AM" >09:00 AM</option>
+                                   
+                   <option value="09:15 AM" >09:15 AM</option>
+                                   
+                   <option value="09:30 AM" >09:30 AM</option>
+                                   
+                   <option value="09:45 AM" >09:45 AM</option>
+                                   
+                   <option value="10:00 AM" >10:00 AM</option>
+                                   
+                   <option value="10:15 AM" >10:15 AM</option>
+                                   
+                   <option value="10:30 AM" >10:30 AM</option>
+                                   
+                   <option value="10:45 AM" >10:45 AM</option>
+                                   
+                   <option value="11:00 AM" >11:00 AM</option>
+                                   
+                   <option value="11:15 AM" >11:15 AM</option>
+                                   
+                   <option value="11:30 AM" >11:30 AM</option>
+                                   
+                   <option value="11:45 AM" >11:45 AM</option>
+                                   
+                   <option value="12:00 PM" >12:00 PM</option>
+                                   
+                   <option value="12:15 PM" >12:15 PM</option>
+                                   
+                   <option value="12:30 PM" >12:30 PM</option>
+                                   
+                   <option value="12:45 PM" >12:45 PM</option>
+                                   
+                   <option value="01:00 PM" >01:00 PM</option>
+                                   
+                   <option value="01:15 PM" >01:15 PM</option>
+                                   
+                   <option value="01:30 PM" >01:30 PM</option>
+                                   
+                   <option value="01:45 PM" >01:45 PM</option>
+                                   
+                   <option value="02:00 PM" >02:00 PM</option>
+                                   
+                   <option value="02:15 PM" >02:15 PM</option>
+                                   
+                   <option value="02:30 PM" >02:30 PM</option>
+                                   
+                   <option value="02:45 PM" >02:45 PM</option>
+                                   
+                   <option value="03:00 PM" >03:00 PM</option>
+                                   
+                   <option value="03:15 PM" >03:15 PM</option>
+                                   
+                   <option value="03:30 PM" >03:30 PM</option>
+                                   
+                   <option value="03:45 PM" >03:45 PM</option>
+                                   
+                   <option value="04:00 PM" >04:00 PM</option>
+                                   
+                   <option value="04:15 PM" >04:15 PM</option>
+                                   
+                   <option value="04:30 PM" >04:30 PM</option>
+                                   
+                   <option value="04:45 PM" >04:45 PM</option>
+                                   
+                   <option value="05:00 PM" >05:00 PM</option>
+                                   
+                   <option value="05:15 PM" >05:15 PM</option>
+                                   
+                   <option value="05:30 PM" >05:30 PM</option>
+                                   
+                   <option value="05:45 PM" >05:45 PM</option>
+                                   
+                   <option value="06:00 PM" >06:00 PM</option>
+                                   
+                   <option value="06:15 PM" >06:15 PM</option>
+                                   
+                   <option value="06:30 PM" >06:30 PM</option>
+                                   
+                   <option value="06:45 PM" >06:45 PM</option>
+                                   
+                   <option value="07:00 PM" >07:00 PM</option>
+                                   
+                   <option value="07:15 PM" >07:15 PM</option>
+                                   
+                   <option value="07:30 PM" >07:30 PM</option>
+                                   
+                   <option value="07:45 PM" >07:45 PM</option>
+                                   
+                   <option value="08:00 PM" >08:00 PM</option>
+                                   
+                   <option value="08:15 PM" >08:15 PM</option>
+                                   
+                   <option value="08:30 PM" >08:30 PM</option>
+                                   
+                   <option value="08:45 PM" >08:45 PM</option>
+                                   
+                   <option value="09:00 PM" >09:00 PM</option>
+                                   
+                   <option value="09:15 PM" >09:15 PM</option>
+                                   
+                   <option value="09:30 PM" >09:30 PM</option>
+                                   
+                   <option value="09:45 PM" >09:45 PM</option>
+                                   
+                   <option value="10:00 PM" >10:00 PM</option>
+                                   
+                   <option value="10:15 PM" >10:15 PM</option>
+                                   
+                   <option value="10:30 PM" >10:30 PM</option>
+                                   
+                   <option value="10:45 PM" >10:45 PM</option>
+                                   
+                   <option value="11:00 PM" >11:00 PM</option>
+                                   
+                   <option value="11:15 PM" >11:15 PM</option>
+                                   
+                   <option value="11:30 PM" >11:30 PM</option>
+                                   
+                   <option value="11:45 PM" >11:45 PM</option>
+                                   
+                  </select>
+                  
+                  <select name="EndTime" id="EndTime">
+                   <option value="">End Time</option>
+                                   
+                   <option value="12:00 AM" >12:00 AM</option>
+                                   
+                   <option value="12:15 AM" >12:15 AM</option>
+                                   
+                   <option value="12:30 AM" >12:30 AM</option>
+                                   
+                   <option value="12:45 AM" >12:45 AM</option>
+                                   
+                   <option value="01:00 AM" >01:00 AM</option>
+                                   
+                   <option value="01:15 AM" >01:15 AM</option>
+                                   
+                   <option value="01:30 AM" >01:30 AM</option>
+                                   
+                   <option value="01:45 AM" >01:45 AM</option>
+                                   
+                   <option value="02:00 AM" >02:00 AM</option>
+                                   
+                   <option value="02:15 AM" >02:15 AM</option>
+                                   
+                   <option value="02:30 AM" >02:30 AM</option>
+                                   
+                   <option value="02:45 AM" >02:45 AM</option>
+                                   
+                   <option value="03:00 AM" >03:00 AM</option>
+                                   
+                   <option value="03:15 AM" >03:15 AM</option>
+                                   
+                   <option value="03:30 AM" >03:30 AM</option>
+                                   
+                   <option value="03:45 AM" >03:45 AM</option>
+                                   
+                   <option value="04:00 AM" >04:00 AM</option>
+                                   
+                   <option value="04:15 AM" >04:15 AM</option>
+                                   
+                   <option value="04:30 AM" >04:30 AM</option>
+                                   
+                   <option value="04:45 AM" >04:45 AM</option>
+                                   
+                   <option value="05:00 AM" >05:00 AM</option>
+                                   
+                   <option value="05:15 AM" >05:15 AM</option>
+                                   
+                   <option value="05:30 AM" >05:30 AM</option>
+                                   
+                   <option value="05:45 AM" >05:45 AM</option>
+                                   
+                   <option value="06:00 AM" >06:00 AM</option>
+                                   
+                   <option value="06:15 AM" >06:15 AM</option>
+                                   
+                   <option value="06:30 AM" >06:30 AM</option>
+                                   
+                   <option value="06:45 AM" >06:45 AM</option>
+                                   
+                   <option value="07:00 AM" >07:00 AM</option>
+                                   
+                   <option value="07:15 AM" >07:15 AM</option>
+                                   
+                   <option value="07:30 AM" >07:30 AM</option>
+                                   
+                   <option value="07:45 AM" >07:45 AM</option>
+                                   
+                   <option value="08:00 AM" >08:00 AM</option>
+                                   
+                   <option value="08:15 AM" >08:15 AM</option>
+                                   
+                   <option value="08:30 AM" >08:30 AM</option>
+                                   
+                   <option value="08:45 AM" >08:45 AM</option>
+                                   
+                   <option value="09:00 AM" >09:00 AM</option>
+                                   
+                   <option value="09:15 AM" >09:15 AM</option>
+                                   
+                   <option value="09:30 AM" >09:30 AM</option>
+                                   
+                   <option value="09:45 AM" >09:45 AM</option>
+                                   
+                   <option value="10:00 AM" >10:00 AM</option>
+                                   
+                   <option value="10:15 AM" >10:15 AM</option>
+                                   
+                   <option value="10:30 AM" >10:30 AM</option>
+                                   
+                   <option value="10:45 AM" >10:45 AM</option>
+                                   
+                   <option value="11:00 AM" >11:00 AM</option>
+                                   
+                   <option value="11:15 AM" >11:15 AM</option>
+                                   
+                   <option value="11:30 AM" >11:30 AM</option>
+                                   
+                   <option value="11:45 AM" >11:45 AM</option>
+                                   
+                   <option value="12:00 PM" >12:00 PM</option>
+                                   
+                   <option value="12:15 PM" >12:15 PM</option>
+                                   
+                   <option value="12:30 PM" >12:30 PM</option>
+                                   
+                   <option value="12:45 PM" >12:45 PM</option>
+                                   
+                   <option value="01:00 PM" >01:00 PM</option>
+                                   
+                   <option value="01:15 PM" >01:15 PM</option>
+                                   
+                   <option value="01:30 PM" >01:30 PM</option>
+                                   
+                   <option value="01:45 PM" >01:45 PM</option>
+                                   
+                   <option value="02:00 PM" >02:00 PM</option>
+                                   
+                   <option value="02:15 PM" >02:15 PM</option>
+                                   
+                   <option value="02:30 PM" >02:30 PM</option>
+                                   
+                   <option value="02:45 PM" >02:45 PM</option>
+                                   
+                   <option value="03:00 PM" >03:00 PM</option>
+                                   
+                   <option value="03:15 PM" >03:15 PM</option>
+                                   
+                   <option value="03:30 PM" >03:30 PM</option>
+                                   
+                   <option value="03:45 PM" >03:45 PM</option>
+                                   
+                   <option value="04:00 PM" >04:00 PM</option>
+                                   
+                   <option value="04:15 PM" >04:15 PM</option>
+                                   
+                   <option value="04:30 PM" >04:30 PM</option>
+                                   
+                   <option value="04:45 PM" >04:45 PM</option>
+                                   
+                   <option value="05:00 PM" >05:00 PM</option>
+                                   
+                   <option value="05:15 PM" >05:15 PM</option>
+                                   
+                   <option value="05:30 PM" >05:30 PM</option>
+                                   
+                   <option value="05:45 PM" >05:45 PM</option>
+                                   
+                   <option value="06:00 PM" >06:00 PM</option>
+                                   
+                   <option value="06:15 PM" >06:15 PM</option>
+                                   
+                   <option value="06:30 PM" >06:30 PM</option>
+                                   
+                   <option value="06:45 PM" >06:45 PM</option>
+                                   
+                   <option value="07:00 PM" >07:00 PM</option>
+                                   
+                   <option value="07:15 PM" >07:15 PM</option>
+                                   
+                   <option value="07:30 PM" >07:30 PM</option>
+                                   
+                   <option value="07:45 PM" >07:45 PM</option>
+                                   
+                   <option value="08:00 PM" >08:00 PM</option>
+                                   
+                   <option value="08:15 PM" >08:15 PM</option>
+                                   
+                   <option value="08:30 PM" >08:30 PM</option>
+                                   
+                   <option value="08:45 PM" >08:45 PM</option>
+                                   
+                   <option value="09:00 PM" >09:00 PM</option>
+                                   
+                   <option value="09:15 PM" >09:15 PM</option>
+                                   
+                   <option value="09:30 PM" >09:30 PM</option>
+                                   
+                   <option value="09:45 PM" >09:45 PM</option>
+                                   
+                   <option value="10:00 PM" >10:00 PM</option>
+                                   
+                   <option value="10:15 PM" >10:15 PM</option>
+                                   
+                   <option value="10:30 PM" >10:30 PM</option>
+                                   
+                   <option value="10:45 PM" >10:45 PM</option>
+                                   
+                   <option value="11:00 PM" >11:00 PM</option>
+                                   
+                   <option value="11:15 PM" >11:15 PM</option>
+                                   
+                   <option value="11:30 PM" >11:30 PM</option>
+                                   
+                   <option value="11:45 PM" >11:45 PM</option>
+                                   
+                  </select>
+                  
+                  <select name="meetingtype" id="meetingtype"  style="width:145px; margin:1px;">
+                    <option value=""  >Meeting Type</option>
+                    <option >B = Beginners meeting</option>
+                            <option >BB = Big Book meeting</option>
+                            <option >C = Closed Discussion meeting</option>
+                            <option >S = Step meeting</option>
+                            <option >T = Tradition meeting</option>
+                            <option >O = Open meeting</option>
+                            <option >OD = Open Discussion meeting</option>
+                          </select>
+                                  <select name="SpecialInterest" id="SpecialInterest"  style="width:145px; margin:1px;">
+                    <option value="">Special Interest</option>
+
+                                        <option >AA Grapevine Literature</option>
+
+                                        <option >AA Literature</option>
+
+                                        <option >AA Meetings on the Beach</option>
+
+                                        <option >Agnostic</option>
+
+                                        <option >Anniversary Meeting</option>
+
+                                        <option >As Bill Sees It</option>
+
+                                        <option >Beginners Workshop</option>
+
+                                        <option >Big Book Topic</option>
+
+                                        <option >Big Book Workshop</option>
+
+                                        <option >Came To Believe</option>
+
+                                        <option >Children Welcome</option>
+
+                                        <option >Daily Reflections</option>
+
+                                        <option >Eleventh Step</option>
+
+                                        <option >Eleventh Step Meditation</option>
+
+                                        <option >First Step Forum</option>
+
+                                        <option >First Step Workshop</option>
+
+                                        <option >Fourth Step Workshop</option>
+
+                                        <option >Gay Men</option>
+
+                                        <option >Gay, Lesbian and Bisexual</option>
+
+                                        <option >H.I.V Positive</option>
+
+                                        <option >Interpreted for the Deaf</option>
+
+                                        <option >Jones Beach Meetings- Nassau County</option>
+
+                                        <option >Korean Speaking</option>
+
+                                        <option >Lesbian</option>
+
+                                        <option >Living Sober</option>
+
+                                        <option >Long-Term Sobriety</option>
+
+                                        <option >Meditation</option>
+
+                                        <option >Meditation at Meeting</option>
+
+                                        <option >Men</option>
+
+                                        <option >Mental Health Issues in Sobriety</option>
+
+                                        <option >No Prayers at Meeting</option>
+
+                                        <option >On-line A.A. Meetings</option>
+
+                                        <option >Polish Speaking</option>
+
+                                        <option >Portuguese Speaking</option>
+
+                                        <option >Promises</option>
+
+                                        <option >Rotating Step</option>
+
+                                        <option >Round-Robin Meeting Format</option>
+
+                                        <option >Russian Speaking </option>
+
+                                        <option >Second Step</option>
+
+                                        <option >Seniors in Sobriety</option>
+
+                                        <option >Slogans</option>
+
+                                        <option >Spanish Speaking</option>
+
+                                        <option >Special Purpose Groups</option>
+
+                                        <option >Spiritual Workshop</option>
+
+                                        <option >Sponsorship Workshop</option>
+
+                                        <option >Steps 1-2-3</option>
+
+                                        <option >Third Step</option>
+
+                                        <option >Topic</option>
+
+                                        <option >Twelve Steps</option>
+
+                                        <option >Twelve Traditions</option>
+
+                                        <option >Ukrainian Speaking</option>
+
+                                        <option >Under Six Months Sober</option>
+
+                                        <option >Wheel Chair Accessible</option>
+
+                                        <option >Women</option>
+
+                                        <option >Young People</option>
+
+                  </select>
+                  
+                   <input type="submit" name="Go" id="Go" value="Go">
+                  <br /><br />
+              </form>
+                          
+                          
+              <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                <thead>
+                  <tr>
+                    <th>Address/Location</th>
+                    <th>Hours</th>
+                                        <th>&nbsp;</th>
+                  </tr>
+                </thead>
+                <tbody>
+                
+                                   
+                  <tr style="margin-bottom:10px">
+                    <td style="border-bottom:1px solid #e3e3e3; width:260px" valign="top">
+                        <h4 style="margin:0;padding:0;">Harlem Children's Zone Admin. Offices</h4><br />
+                                            <b>125 - TWO FOR ONE - </b><br />
+                                                35 East 125 Street, 1st Floor Conference Room, 
+                                                <br />(@ Madison Avenue) 10035
+                                                <br />
+                                                <br />
+                        
+                        <div class="detailsBox"> 
+                                O 2nd, S 3rd, Anniv. 4th & BB 5th Sat. 
+                        </div>
+                         
+                                                <span style="color:darkblue; font-size:10pt;">
+                        <img src="../images/wheelchair.jpg" alt="Wheelchair Access" width="20" vspace="5" hspace="10" align="absmiddle"/>Wheelchair access
+                        </span>
+                          
+
+                    </td>
+                    <td style="border-bottom:1px solid #e3e3e3;width:350px;" valign="top">
+                         
+                                            <b>Saturdays From</b>  4:15 PM <b>to</b> 5:30 PM <br /><b>Meeting Type</b> B = Beginners meeting 
+                                                <br />
+                        <br />
+                    
+                                        </td> 
+                    <td style="border-bottom:1px solid #dedede; width:90px; ">
+                        <a href="getdirections.cfm?meetingid=447" class="GetDirections">Get Directions</a>
+                    </td>
+                  </tr>
+                                  
+
+                                   
+                  <tr style="margin-bottom:10px">
+                    <td style="border-bottom:1px solid #e3e3e3; width:260px" valign="top">
+                        <h4 style="margin:0;padding:0;">Peter Jay Sharpe Building</h4><br />
+                                            <b>EAST HARLEM - East Harlem</b><br />
+                                                223 East 117th Street, 1st Floor Dining Room, 
+                                                <br />(Betw. 2nd & 3rd Avenues) NY 10035
+                                                <br />
+                                                <br />
+                        
+                        <div class="detailsBox"> 
+                                Living Sober 1st Tuesday. 
+                        </div>
+                         
+                                                <span style="color:darkblue; font-size:10pt;">
+                        <img src="../images/wheelchair.jpg" alt="Wheelchair Access" width="20" vspace="5" hspace="10" align="absmiddle"/>Wheelchair access
+                        </span>
+                          
+
+                    </td>
+                    <td style="border-bottom:1px solid #e3e3e3;width:350px;" valign="top">
+                         
+                                            <b>Tuesdays From</b>  6:30 PM <b>to</b> 7:30 PM <br /><b>Meeting Type</b> B = Beginners meeting <br /><b>Special Interest</b> Living Sober
+                                                <br />
+                        <br />
+                    
+                                        </td> 
+                    <td style="border-bottom:1px solid #dedede; width:90px; ">
+                        <a href="getdirections.cfm?meetingid=139" class="GetDirections">Get Directions</a>
+                    </td>
+                  </tr>
+                                  
+
+                                   
+                  <tr style="margin-bottom:10px">
+                    <td style="border-bottom:1px solid #e3e3e3; width:260px" valign="top">
+                        <h4 style="margin:0;padding:0;"></h4><br />
+                                            <b>GRUPO NUEVA VIDA - Grupo Nueva Vida</b><br />
+                                                2126 2nd Avenue, 1st Floor, 
+                                                <br />(Betw. 109th & 110th Streets) NY 10029
+                                                <br />
+                                                <br />
+                        
+                        <div class="detailsBox"> 
+                                Spanish speaking meetings. 
+                        </div>
+                         
+                                                <span style="color:darkblue; font-size:10pt;">
+                        <img src="../images/wheelchair.jpg" alt="Wheelchair Access" width="20" vspace="5" hspace="10" align="absmiddle"/>Wheelchair access
+                        </span>
+                          
+
+                    </td>
+                    <td style="border-bottom:1px solid #e3e3e3;width:350px;" valign="top">
+                         
+                                            <b>Sundays From</b>  5:00 PM <b>to</b> 6:00 PM <br /><b>Meeting Type</b> OD = Open Discussion meeting 
+                                                <br />
+                        <br />
+                    
+                                            <b>Mondays From</b>  8:00 PM <b>to</b> 9:00 PM <br /><b>Meeting Type</b> B = Beginners meeting 
+                                                <br />
+                        <br />
+                    
+                                            <b>Tuesdays From</b>  8:00 PM <b>to</b> 9:00 PM <br /><b>Meeting Type</b> OD = Open Discussion meeting 
+                                                <br />
+                        <br />
+                    
+                                            <b>Wednesdays From</b>  8:00 PM <b>to</b> 9:00 PM <br /><b>Meeting Type</b> C = Closed Discussion meeting 
+                                                <br />
+                        <br />
+                    
+                                            <b>Thursdays From</b>  8:00 PM <b>to</b> 9:00 PM <br /><b>Meeting Type</b> OD = Open Discussion meeting 
+                                                <br />
+                        <br />
+                    
+                                            <b>Fridays From</b>  8:00 PM <b>to</b> 9:00 PM <br /><b>Meeting Type</b> OD = Open Discussion meeting 
+                                                <br />
+                        <br />
+                    
+                                            <b>Saturdays From</b>  8:00 PM <b>to</b> 9:00 PM <br /><b>Meeting Type</b> OD = Open Discussion meeting 
+                                                <br />
+                        <br />
+                    
+                                        </td> 
+                    <td style="border-bottom:1px solid #dedede; width:90px; ">
+                        <a href="getdirections.cfm?meetingid=181" class="GetDirections">Get Directions</a>
+                    </td>
+                  </tr>
+                                  
+
+                                   
+                  <tr style="margin-bottom:10px">
+                    <td style="border-bottom:1px solid #e3e3e3; width:260px" valign="top">
+                        <h4 style="margin:0;padding:0;">Veterans Residence</h4><br />
+                                            <b>HARLEM 1 PM RECOVERY - Harlem 1 PM Recovery</b><br />
+                                                22 East 119th Street,  1st Floor Cafeteria, 
+                                                <br />(Betw. Madison & 5th Avenues) NY 10035
+                                                <br />
+                                                <br />
+                        
+                        <div class="detailsBox"> 
+                                ID REQUIRED TO ENTER BUILDING 
+                        </div>
+                         
+                                                <span style="color:darkblue; font-size:10pt;">
+                        <img src="../images/wheelchair.jpg" alt="Wheelchair Access" width="20" vspace="5" hspace="10" align="absmiddle"/>Wheelchair access
+                        </span>
+                          
+
+                    </td>
+                    <td style="border-bottom:1px solid #e3e3e3;width:350px;" valign="top">
+                         
+                                            <b>Sundays From</b>  1:00 PM <b>to</b> 2:00 PM <br /><b>Meeting Type</b> T = Tradition meeting 
+                                                <br />
+                        <br />
+                    
+                                            <b>Mondays From</b>  1:00 PM <b>to</b> 2:00 PM <br /><b>Meeting Type</b> B = Beginners meeting 
+                                                <br />
+                        <br />
+                    
+                                        </td> 
+                    <td style="border-bottom:1px solid #dedede; width:90px; ">
+                        <a href="getdirections.cfm?meetingid=219" class="GetDirections">Get Directions</a>
+                    </td>
+                  </tr>
+                                  
+
+                </tbody>
+              </table>
+                          
+                          </td>
+          </tr>
+          <tr>
+            <td width="640" bgcolor="E1E1E1"><p align="center">&nbsp;</p>
+<hr /><center>
+<a href="http://www.nyintergroup.org/corrsvce.cfm">Corrections Service</a> | 
+<a href="http://www.nyintergroup.org/pubinfsvce.cfm">Public Information Service</a> | 
+<a href="http://www.nyintergroup.org/hospsvce.cfm">Treatment Facilities  Services</a><br>
+  <a href="http://www.nyintergroup.org/03events.cfm">Year 2015 Events</a> | <a href="http://www.nyintergroup.org/duties.cfm">Group 
+  Officer's Suggested Duties</a> | <a href="http://www.nyintergroup.org/meetinglist">Meeting 
+  List</a><br>
+<a href="http://www.nyintergroup.org/faq.cfm">Frequently Asked Questions</a> |
+ <a href="http://www.nyintergroup.org">Home Page</a>   | <a href="http://www.nyintergroup.org/donationform_seventhtradition.pdf">Donation Form / Seventh Tradition</a> | <a href="/contact.cfm">Contact Us</a>
+<br />
+</center>
+<br></td>
+          </tr>
+        </table>
+        <!--end middle table --></td>
+    </tr>
+  </table>
+  <p align="center">&nbsp;</p>
+<hr /><center>
+<a href="http://www.nyintergroup.org/corrsvce.cfm">Corrections Service</a> | 
+<a href="http://www.nyintergroup.org/pubinfsvce.cfm">Public Information Service</a> | 
+<a href="http://www.nyintergroup.org/hospsvce.cfm">Treatment Facilities  Services</a><br>
+  <a href="http://www.nyintergroup.org/03events.cfm">Year 2015 Events</a> | <a href="http://www.nyintergroup.org/duties.cfm">Group 
+  Officer's Suggested Duties</a> | <a href="http://www.nyintergroup.org/meetinglist">Meeting 
+  List</a><br>
+<a href="http://www.nyintergroup.org/faq.cfm">Frequently Asked Questions</a> |
+ Form / Seventh Tradition</a> | <a href="/contact.cfm">Contact Us</a>
+<br />
+</center>
+<br>
+</center>
+</body>
+</html>
