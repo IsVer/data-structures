@@ -1,4 +1,6 @@
-<style>
+var m01 = 
+
+(<style>
 
 
 	table.cfdump_wddx,
@@ -1866,8 +1868,13 @@ table thead th {
 <a href="http://www.nyintergroup.org/faq.cfm">Frequently Asked Questions</a> |
  <a href="http://www.nyintergroup.org">Home Page</a>   | <a href="http://www.nyintergroup.org/donationform_seventhtradition.pdf">Donation Form / Seventh Tradition</a> | <a href="/contact.cfm">Contact Us</a>
 <br />
+<<<<<<< HEAD
 </center>
 <br>
+=======
+>>>>>>> c73173791a1723c9aa01b48b281e1360c86bdec1
 </center>
+<br>
+</center>)
 </body>
 </html>
