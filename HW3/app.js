@@ -1,15 +1,14 @@
-var fs = require('fs');
-var cheerio = require('cheerio'); // npm install cheerio
+// imports
 var request = require('request'); // npm install request
 var async = require('async'); // npm install async
+var fs = require('fs');
+var cheerio = require('cheerio'); // npm install cheerio
 
+//load cherrio dom
 var content = fs.readFileSync('/home/ubuntu/workspace/HWs/data-structures/HW2/m01.txt');
 var meetings = [];
-
 var $ = cheerio.load(content);
-//$(window).on('load', function() { ... });
 $('tbody').find('tr').each(function(i, tr){
-  
     var td_array = $(tr).find('td');
     var el = td_array.eq(0); 
     var html = el.html();
@@ -19,50 +18,83 @@ $('tbody').find('tr').each(function(i, tr){
     meetings.push(addressWithoutWhiteSpace);
     //meetings.push($(elem).find('td').eq(0).html().split('<br>')[2].trim());
     });
-
 console.log(meetings.length); // print number of meetings in meetings array
-fs.writeFileSync('/home/ubuntu/workspace/HWs/data-structures/HW2/meetingArray.txt', JSON.stringify(meetings));
-
-meetings = ["20 Cardinal Hayes Place, Rectory Basement,","20 Cardinal Hayes Place, Enter through driveway behind Church.,","29 Mott Street, Basement,","49 Fulton Street, 1st Floor Library,","44 John Street,","49 Fulton Street,","20 Cardinal Hayes Place, Enter thru driveway behind Church.,","22 Barclay Street,","20 Cardinal Hayes Place, Enter thru driveway behind Church.,","22 Barclay Street (Basement),","283 West Broadway,","125 Barclay Street,","49 Fulton Street, Conference Room #1,","49 Fulton Street,","20 Cardinal Hayes Place, \r\n\t\t\t\t\t\t10007","283 West Broadway,","49 Fulton Street,","22 Barclay Street- basement chapel,","20 Cardinal Hayes Place,","283 West Broadway, \r\n\t\t\t\t\t\t10013","283 West Broadway,","283 W. Broadway,"];
 
 
-function cleaningStreets(array) {
-    for (var i=0; i < meetings.length; i++) {
-        var streetName = 'i';
-        var streetName1 = streetName.substring(0, streetName.indexOf(','));
-        var streetName3 = streetName1 + ', New York, NY';
-        var streetName4 = streetName3.split(" ").join('+');
-        meetings.push(streetName4);
-    }
-    console.log(meetings);
+fs.writeFileSync('/home/ubuntu/workspace/HWs/data-structures/HW3/meetingArray1.txt', JSON.stringify(meetings));
+
+var apiKey = process.env.GMA_KEY;
+var meetingsData = [];
+var addresses = JSON.parse(fs.readFileSync('/home/ubuntu/workspace/HWs/data-structures/HW3/meetingArray1.txt'));
+
+
+function cleanAddress(address) {
+    var newAddress = address.substring(0, address.indexOf(',')) + ', New York, NY';
+    return newAddress;
 }
 
-cleaningStreets(meetings);
+var cleanAddresses = [];
+addresses.forEach(function(address) {
+    var clean = cleanAddress(address);
+    
+    //remove duplicates
+    if (cleanAddresses.indexOf(clean) === -1) {
+        cleanAddresses.push(clean)
+    }
+});
+
+console.log('Count of cleaned addresses: ' + cleanAddresses.length)
 
 
-// var apiKey = process.env.GMAKEY;
+//query google api for lat/long for each address
+async.eachSeries(cleanAddresses, function(address, callback) {
+    
+    console.log('formatting request for ' + address);
+    //create the api request
+    var apiUrl = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + address.split(' ').join('+') + '&key=' + apiKey;
 
-// var meetingsData = [];
-// var addresses = ["63 Fifth Ave, New York, NY", "16 E 16th St, New York, NY", "2 W 13th St, New York, NY"];
+    //create thisMeeting variable to store the lat/long of each meeting address
+    var thisMeeting = new Object;
+    thisMeeting.address = address;
 
-// // eachSeries in the async module iterates over an array and operates on each item in the array in series
-// async.eachSeries(addresses, function(value, callback) {
-//     var apiRequest = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + value.split(' ').join('+') + '&key=' + apiKey;
-//     var thisMeeting = new Object;
-//     thisMeeting.address = value;
-//     request(apiRequest, function(err, resp, body) {
-//         if (err) {throw err;}
-//         thisMeeting.latLong = JSON.parse(body).results[0].geometry.location;
-//         meetingsData.push(thisMeeting);
-//     });
-//     setTimeout(callback, 2000);
-// }, function() {
-//     console.log(meetingsData);
-// });
+    //wait 2 seconds
+    console.log('waiting 2 seconds...');
+    setTimeout(function() {
+        
+        //make api request
+        console.log('requesting ' + apiUrl);
+        request(apiUrl, function(err, resp, body) {
+            //error in request
+            if (err) {
+                throw err;
+            }
+            
+            //parse json once
+            var json = JSON.parse(body)
+            
+            //if google has results
+            var hasResults = json.status != 'ZERO_RESULTS'; 
+            if (hasResults) {
+                //get location of meeting
+                thisMeeting.latLong = json.results[0].geometry.location;
+                //track location of meeting
+                meetingsData.push(thisMeeting);
+                
+            }else {
+                //log failed request
+                console.log(apiUrl + ' has zero results');
+            }
+            
+            //when api is done, go to next item in cleanAddresses
+            //if this doesn't happen here, it will be out of sync
+            console.log('going to next item in addresses' + '\n\n');
+            callback();
+        });
+        
+    }, 2 * 1000);
 
-
-// //var streetName = '50 Perry Street, Ground Floor,';
-// //var streetName1 = streetName.substring(0, streetName.indexOf(','));
-// //var streetName3 = streetName1 + ', New York, NY';
-// // var streetName4 = streetName3.split(' ').join('+');
-// // console.log(streetName4);
+    }, 
+    
+    function() {
+        fs.writeFileSync('/home/ubuntu/workspace/HWs/data-structures/HW3/meetingArray1.txt', JSON.stringify(meetingsData));
+});
