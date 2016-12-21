@@ -3,11 +3,10 @@ var app = express()
 var https = require('https')
 var fs = require('fs')
 var cors = require('cors');
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+//process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 app = express();
 app.use(cors());
-
 
     
 /*
@@ -56,26 +55,25 @@ var getMeetingsFromMongo = function(onComplete) {
 }
 
 app.get('/', function (req, res) {
-    console.log(req);
+    console.log('GET: /')
     res.send('Hello World!')
 })
 
 app.get('/meetings', function(req, res) {
+    console.log('GET: /meetings')
     getMeetingsFromMongo(function(results) {
       res.send(results)
     })
 })
 
 //app.listen(process.env.PORT, process.env.IP);
-https.createServer({
-    key: fs.readFileSync('/home/ubuntu/workspace/HW5/server.key'),
-    cert: fs.readFileSync('/home/ubuntu/workspace/HW5/server.crt'),
-    ca: fs.readFileSync('/home/ubuntu/workspace/HW5/ca.crt'),
-    requestCert: true,
-    rejectUnauthorized: false
-}, app).listen(3000, function() {
-    console.log("Secure Express server listening on port 3000");
-});
-// app.listen(3000, function () {
-//   console.log('Example app listening on port 3000!')
-// })
+// https.createServer({
+//     key: fs.readFileSync('/home/ubuntu/workspace/HW5/server.key'),
+//     cert: fs.readFileSync('/home/ubuntu/workspace/HW5/server.crt'),
+//     ca: fs.readFileSync('/home/ubuntu/workspace/HW5/ca.crt')
+// }, app).listen(process.env.PORT, process.env.IP, function() {
+//     console.log("Secure Express server listening on port" + process.env.PORT + process.env.IP);
+// });
+app.listen(process.env.PORT, process.env.IP, function () {
+    console.log("Secure Express server listening on port" + process.env.PORT + process.env.IP);
+})
