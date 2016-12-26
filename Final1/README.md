@@ -3,6 +3,9 @@ AA meetings project.
 There are several AA meetings per day in and around NYC, at different locations and with a different format (Open Discussion, Closed Discussions, Beginners Meetings, etc.). The purpose of this project was to make a map of NYC listing all the relevant meetings. Per location, a small infowindow (pop-up) should provide relevant information with info windows. The relevant meetings and information depend on the viewer and the time she/he uses the website. Ideally, the user should get the meetings (and few relevant details) for the next 24 hours with a link to that location for more info. 
  
  The data is scraped from the AA meetings around NYC from the AA website. The longitude/latitude, the map and infowindows were made with the Google Maps API.
+ 
+[Link to website](https://preview.c9users.io/isaverkes/fall16/HW5/map.html?_c9_id=livepreview3&_c9_host=https://ide.c9.io)
+![Screenshot](https://github.com/IsVer/data-structures/blob/master/HW5/Screen%20Shot%202016-12-26%20at%202.59.06%20PM.png)
 
 ####Index
 Files in this directory:
