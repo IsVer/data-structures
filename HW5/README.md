@@ -5,12 +5,7 @@ There are several AA meetings per day in and around NYC, at different locations 
  The data is scraped from the AA meetings around NYC from the AA website. The longitude/latitude, the map and infowindows were made with the Google Maps API.
  
 [Link to website](https://preview.c9users.io/isaverkes/fall16/HW5/map.html?_c9_id=livepreview3&_c9_host=https://ide.c9.io)
-
-<p align="center">
-  <img src="data-structures/HW5/Screen Shot 2016-12-26 at 2.59.06 PM.png" width="350"/>
-</p>
-
-[Screen shot](data-structures/HW5/Screen Shot 2016-12-26 at 2.59.06 PM.png)
+![Screenshot](https://github.com/IsVer/data-structures/blob/master/HW5/Screen%20Shot%202016-12-26%20at%202.59.06%20PM.png)
 
 ####Index
 Files in this directory:
